@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    background-color: blue;
+}
+#navbar button{
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    font-family: cursive;
+    font-size: 17px;
+}
+#navbar button:hover{
+    border: none;
+    background-color: blue;
+    color: black;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+}
+/*forms*/
+#form-heading{
+    font-family: cursive;
+}
+#register-form, #login-form, #forgot-password, #reset-password{
+    align-content: center;
+    justify-items: center;
+    height: 80vh;
+    display: none;
+}
+#username, #email, #password{
+    width: 300px;
+    height: 25px;
+
+}
+#form-btn{
+    width: 300px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+#login-form-link, #register-form-link, #forgot-password-btn{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*msg container*/
+#clock-container{
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    height: 80vh;
+}
+#clockheading{
+    font-family: cursive;
+}
+#clock{
+    background-color: white;
+    border: 1px solid;
+    font-size: 100px;
+    font-family: cursive;
+}
