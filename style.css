@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    background-color: blue;
+}
+#navbar button{
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    font-family: cursive;
+    font-size: 17px;
+}
+#navbar button:hover{
+    border: none;
+    background-color: blue;
+    color: black;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+}
+/*forms*/
+#form-heading{
+    font-family: cursive;
+}
+#register-form, #login-form, #forgot-password, #reset-password{
+    align-content: center;
+    justify-items: center;
+    height: 80vh;
+    display: none;
+}
+#username, #email, #password{
+    width: 300px;
+    height: 25px;
+
+}
+#form-btn{
+    width: 300px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+#login-form-link, #register-form-link, #forgot-password-btn{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*msg container*/
+#clock-container{
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    height: 80vh;
+}
+#clockheading{
+    font-family: cursive;
+}
+#clock{
+    background-color: white;
+    border: 1px solid;
+    font-size: 100px;
+    font-family: cursive;
+}
+/*game*/
+#game-container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+#rock,#paper,#scissor{
+    width: 100x;
+    height: 100px;
+    border: 1px solid;
+    background-color: white;
+    font-size: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+/*calculator*/
+
+#calculator-container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80vh;
+}
+#calculator{
+    border: 1px solid;
+    width: 300px;
+    height: 440px;
+}
+#input{
+    width: 295px;
+    height: 100px;
+    border: 1px solid;
+    font-size: 40px;
+    font-family: monospace;
+    border-radius: 0px;
+}
+#button, #clear{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
